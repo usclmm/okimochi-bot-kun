@@ -27,15 +27,16 @@ app.event('reaction_added',async({event, say}) => {
                 await say(`<@${event.user}>さんは普通の顔をしています。:neutral_face:`);
                 break;
             case 'thinking_face':
-                await say(`<@${event.user}>さんは考えています...:thinking_face:`)
+                await say(`<@${event.user}>さんは考えています...:thinking_face:`);
             case 'pleading_face':
                 await say(`<@${event.user}>さんはぴえんな気持ちのようです。:pleading_face:`);
                 break;
             case 'innocent':
-                await say(`<@${event.user}>さんは天使の笑顔を浮かべています。:innocent:`)
+                await say(`<@${event.user}>さんは天使の笑顔を浮かべています。:innocent:`);
                 break;
             case 'rage':
-                await say(`<@${event.user}>さんが怒りました！:rage:`)
+                await say(`<@${event.user}>さんが怒りました！:rage:`);
+                break;
             case 'dusty_stick':
                 await say(`<@${event.user}>さんは汚い棒を振りかざしています。:dusty_stick:`);
                 break;   
