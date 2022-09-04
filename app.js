@@ -28,6 +28,7 @@ app.event('reaction_added',async({event, say}) => {
                 break;
             case 'thinking_face':
                 await say(`<@${event.user}>さんは考えています...:thinking_face:`);
+                break;
             case 'pleading_face':
                 await say(`<@${event.user}>さんはぴえんな気持ちのようです。:pleading_face:`);
                 break;
